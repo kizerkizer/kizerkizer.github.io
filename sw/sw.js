@@ -1,3 +1,4 @@
-if (navigator && `serviceWorker` in navigator) {
-  navigator.serviceWorker.register(
-}
+self.addEventListener('fetch', (event) => {
+  console.log(event);
+  return false;
+});
