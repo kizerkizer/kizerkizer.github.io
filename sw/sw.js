@@ -1,4 +1,4 @@
 self.addEventListener('fetch', (event) => {
   console.log(event);
-  event.preventDefault();
+  event.respondWith();
 });
