@@ -15,7 +15,7 @@ self.addEventListener('fetch', (event) => {
       resolve,
       reject
     });
-  });
+  }));
 });
 
 self.addEventListener('message', (event) => {
